@@ -1,0 +1,38 @@
+{
+  "name": "wp-packagist/wp-cli-explorer-command",
+  "description": "WP-CLI Explorer Current working directory Command.",
+  "type": "wp-cli-package",
+  "homepage": "https://github.com/wp-packagist/wp-cli-explorer-command",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "wordpress",
+    "wp-cli"
+  ],
+  "authors": [
+    {
+      "name": "Mehrshad Darzi",
+      "email": "mehrshad198@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "command.php"
+    ]
+  },
+  "require": {
+    "php": "^5.4 || ^7.0",
+    "wp-packagist/wp-cli-helper": "dev-master"
+  },
+  "extra": {
+    "commands": [
+      "explorer"
+    ]
+  },
+  "require-dev": {
+    "wp-cli/wp-cli": "^2.0"
+  },
+  "support": {
+    "issues": "https://github.com/wp-packagist/wp-cli-explorer-command/issues"
+  }
+}
